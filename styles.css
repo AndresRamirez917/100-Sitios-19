@@ -27,6 +27,17 @@ h2 {
     padding: 50px;
 }
 
+.display-1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: lighter;
+    padding: 50px;
+}
+
+.navbar {
+    background: #000;
+}
+
 .navbar .logo {
     float: left;
     font-size: 30px;
@@ -36,6 +47,7 @@ h2 {
 .navbar ul {
     float: right;
     margin-left: 20px;
+    margin-top: 30px;
 }
 
 .navbar ul li {
@@ -67,7 +79,7 @@ form .form-control {
 button {
     display: block;
     width: 100%;
-    background: #000;
+    background: #6b6767;
     color: white;
     padding: 20px;
     transition: all 0.3s ease;
@@ -76,5 +88,89 @@ button {
 }
 
 button:hover {
-    background: #555;
+    background: #9c9b9b;
+}
+
+.card {
+    background: #fff;
+    float: left;
+    width: 20%;
+    border: 1px solid #000;
+    margin-left:50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.card p {
+    color: #000;
+    font-weight: bold;
+}
+
+.card-row {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.card img {
+    width: 75%;
+}
+
+
+
+#showcase {
+    background: #000;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.card-services {
+    background: #000;
+    float: left;
+    width: 20%;
+    border: 1px solid #000;
+    margin-left:50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+}
+
+/* about */
+
+#about {
+    margin-bottom: 50px;
+}
+
+/* services */
+
+#services {
+    padding-bottom: 50px;
+}
+
+.card-services h2 {
+    text-align: left !important;
+}
+
+.card-services img {
+    width: 30%;
+    padding: 20px;
+}
+
+/* contact */
+#contact {
+    background: #000;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+
+#footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
 }
